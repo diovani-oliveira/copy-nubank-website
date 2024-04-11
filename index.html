@@ -6,7 +6,40 @@
     <title>Nubank | Finalmente você no controle!</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/general.css">
+    <style>
+        header{
+            width: 100%;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 24px 0px 24px;
+        }
+        header img{
+            width: 44px;
+        }
+        header .menu-active{
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: .5s;
+            border-radius: 1000px;
+            cursor: pointer;
+        }
+        header .menu-active i{
+            font-size: 26px;
+        }
+        header .menu-active:hover{
+            background: rgb(244, 231, 255);
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <img src="./images/logo.png" alt="">
+        <div class="menu-active"><i class='bx bx-menu'></i></div>
+    </header>
 </body>
 </html>
