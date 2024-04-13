@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nubank | Finalmente você no controle!</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="./css/general.css">
     <style>
+        :root{
+            --swiper-navigation-size: 20px;
+        }
         body{
             min-height: 110vh;
         }
@@ -107,6 +112,67 @@
         main .section1 .card form button i{
             font-size: 19px;
         }
+
+        main .section2{
+            width: 724px;
+            position: relative;
+            margin-top: 16px;
+            padding-bottom: 80px;
+        }
+        main .section2 .swiper-wrapper{
+            min-width: 724px;
+            width: 724px;
+        }
+        main .section2 .swiper-slide .box{
+            min-width: 330px;
+            height: 300px;
+            border-radius: 12px;
+            position: relative;
+            margin: 32px;
+            padding: 20px;
+            border: 1px solid rgba(17, 17, 17, 0.1);
+        }
+        main .section2 .swiper-slide .box h1{
+            font-size: 19px;
+            font-weight: 500;
+        }
+        main .section2 .swiper-slide .box p{
+            font-size: 16px;
+            margin-top: 36px;
+        }
+        main .section2 .swiper-slide .box button{
+            background: #fff;
+            position: absolute;
+            bottom: 24px;
+            color: rgb(130, 10, 209);
+            width: 123px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: none;
+            font-size: 17px;
+            font-weight: 500;
+        }
+        main .section2 .swiper-slide .box button i{
+            font-size: 21px;
+        }
+        main .section2 .box i{
+            font-size: 24px;
+        }
+        main .section2 .box-arrows{
+            position: absolute;
+            bottom: 70px;
+            width: 106px;
+            left: 50vw;
+            margin-left: -54px;
+        }
+
+        .swiper-button-next{
+            color: #101010;
+        }
+        .swiper-button-prev{
+            color: #101010;
+        }
     </style>
 </head>
 <body>
@@ -128,6 +194,141 @@
                 </form>
             </div>
         </section>
+        <section class="section2">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <i class='bx bx-money-withdraw' ></i>
+                            <h1>Empréstimo</h1>
+                            <p>Transparentes, seguros e do seu jeito. Opções de empréstimos que deixam você no controle do início ao fim.</p>
+                            <button>Saiba mais<i class='bx bx-right-arrow-alt'></i></button>
+                        </div>
+                        <div class="box">
+                            <i class='bx bx-money-withdraw' ></i>
+                            <h1>NuConsignado</h1>
+                            <p>O empréstimo consignado para servidores públicos federais e, em breve, para aposentados e pensionistas do INSS.</p>
+                            <button>Saiba mais<i class='bx bx-right-arrow-alt'></i></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <i class='bx bx-dollar-circle' ></i>
+                            <h1>Investimentos</h1>
+                            <p>Investimentos a partir de R$ 1 e opções para todos os perfis. Uma experiência fácil, segura e transparente.</p>
+                            <button>Saiba mais<i class='bx bx-right-arrow-alt'></i></button>
+                        </div>
+                        <div class="box">
+                            <i class='bx bx-dollar-circle' ></i>
+                            <h1>Caixinhas</h1>
+                            <p>Organize e guarde dinheiro para seus planos. Crie Caixinhas personalizadas para cada um de seus objetivos.</p>
+                            <button>Saiba mais<i class='bx bx-right-arrow-alt'></i></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <i class='bx bx-credit-card-front' ></i>
+                            <h1>Cartão de crédito</h1>
+                            <p>Um cartão completo, moderno e gratuito pra você. E com anuidade zero. Fique no controle da sua vida financeira.</p>
+                            <button>Saiba mais<i class='bx bx-right-arrow-alt'></i></button>
+                        </div>
+                        <div class="box">
+                            <i class='bx bx-shekel' ></i>
+                            <h1>Pix no crédito</h1>
+                            <p>Faça um Pix e pague com o cartão de crédito: não use o saldo da sua conta e concentre os gastos no cartão.</p>
+                            <button>Saiba mais<i class='bx bx-right-arrow-alt'></i></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <i class='bx bx-barcode'></i>
+                            <h1>Boleto no crédito</h1>
+                            <p>Pague ou parcele em até 12 vezes seus boletos com o cartão de crédito e tenha mais controle sobre o seu dinheiro.</p>
+                            <button>Saiba mais<i class='bx bx-right-arrow-alt'></i></button>
+                        </div>
+                        <div class="box">
+                            <i class='bx bx-credit-card-front' ></i>
+                            <h1>Parcelamento de compras</h1>
+                            <p>Parcele suas compras à vista feitas em estabelecimentos físicos e virtuais direto no app do Nubank.</p>
+                            <button>Saiba mais<i class='bx bx-right-arrow-alt'></i></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <i class='bx bx-credit-card-front' ></i>
+                            <h1>Cartão Virtual</h1>
+                            <p>Crie novos cartões virtuais de crédito ou débito no seu app e proteja ainda mais suas compras online.</p>
+                            <button>Saiba mais<i class='bx bx-right-arrow-alt'></i></button>
+                        </div>
+                        <div class="box">
+                            <i class='bx bx-credit-card-front' ></i>
+                            <h1>Cartão Adicional</h1>
+                            <p>Cartão de crédito físico adicional para ser compartilhado com outra pessoa utilizando o mesmo limite.</p>
+                            <button>Saiba mais<i class='bx bx-right-arrow-alt'></i></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <i class='bx bx-credit-card-front' ></i>
+                            <h1>Carteira Digital</h1>
+                            <p>Armazene os dados do seu cartão de crédito nas carteiras digitais do Google Pay, Apple Pay e Samsung Pay.</p>
+                            <button>Saiba mais<i class='bx bx-right-arrow-alt'></i></button>
+                        </div>
+                        <div class="box">
+                            <i class='bx bx-heart' ></i>
+                            <h1>Seguro de vida</h1>
+                            <p>Proteja você e quem você ama por a partir de R$4 por mês. Escolha o plano que se encaixa ao seu perfil.</p>
+                            <button>Saiba mais<i class='bx bx-right-arrow-alt'></i></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <i class='bx bx-mobile-alt' ></i>
+                            <h1>Seguro celular</h1>
+                            <p>A mais completa proteção do mercado, seja para furto ou roubo de celular, tela quebrada ou oxidada.</p>
+                            <button>Saiba mais<i class='bx bx-right-arrow-alt'></i></button>
+                        </div>
+                        <div class="box">
+                            <i class='bx bxs-chip' ></i>
+                            <h1>Conta</h1>
+                            <p>Receba, movimente e guarde seu dinheiro de um jeito simples e com rendimento maior que a poupança.</p>
+                            <button>Saiba mais<i class='bx bx-right-arrow-alt'></i></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <i class='bx bx-dollar-circle'></i>
+                            <h1>Assistente de pagamento</h1>
+                            <p>O seu assistente pessoal quando o assunto é pagar as contas do mês, desde o boleto de água até Pix para o professor de inglês.</p>
+                            <button>Saiba mais<i class='bx bx-right-arrow-alt'></i></button>
+                        </div>
+                        <div class="box">
+                            <i class='bx bx-shopping-bag' ></i>
+                            <h1>Shopping</h1>
+                            <p>Um shopping que oferece tudo que você precisa: mais de 150 lojas parceiras, segurança e ótimos preços.</p>
+                            <button>Saiba mais<i class='bx bx-right-arrow-alt'></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-arrows">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
     </main>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            spaceBetween: 10,
+            autoplay: true,
+            slidesPerView: 2,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 </html>
