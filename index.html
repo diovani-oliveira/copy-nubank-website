@@ -173,6 +173,104 @@
         .swiper-button-prev{
             color: #101010;
         }
+
+
+
+        .section3 .container1{
+            background: rgb(245, 245, 245);
+            padding: 64px 0px;
+        }
+        .section3 .container1 .button{
+            background: rgb(245, 245, 245);
+            border: none;
+            width: 88%;
+            position: relative;
+            left: 6%;
+            font-size: 17px;
+            font-weight: 600;
+            color: rgb(130, 10, 209);
+        }
+        .section3 .container1 img{
+            width: 88%;
+            position: relative;
+            left: 6%;
+        }
+        .section3 .container1 h1{
+            width: 88%;
+            position: relative;
+            left: 6%;
+            color: rgb(130, 10, 209);
+            font-weight: 600;
+            font-size: 28px;
+            margin-top: 16px;
+        }
+        .section3 .container1 p{
+            width: 88%;
+            position: relative;
+            left: 6%;
+            font-size: 19px;
+            padding: 16px 0px;
+            font-weight: 500;
+        }
+        .section3 .container2{
+            background: rgb(47, 5, 73);
+            color: #fff;
+            padding: 64px 0px;
+        }
+        .section3 .container2 .button{
+            background: rgb(47, 5, 73);
+            color: #fff;
+            border: none;
+            width: 88%;
+            position: relative;
+            left: 6%;
+            font-size: 17px;
+            font-weight: 600;
+        }
+        .section3 .container2 img{
+            width: 88%;
+            position: relative;
+            left: 6%;
+        }
+        .section3 .container2 h1{
+            width: 88%;
+            position: relative;
+            left: 6%;
+            font-weight: 500;
+            font-size: 28px;
+            margin-top: 14px;
+        }
+        .section3 .container2 p{
+            width: 88%;
+            position: relative;
+            font-size: 18px;
+            left: 6%;
+            font-weight: 500;
+            padding: 32px 0px;
+        }
+        .section3 .container3{
+            padding: 6%;
+            padding-top: 50px;
+        }
+        .section3 .container3 .box{
+            margin-top: 32px;
+        }
+        .section3 .container3 h1{
+            font-size: 28px;
+            font-weight: 600;
+        }
+        .section3 .container3 .box h1{
+            font-size: 19px;
+        }
+        .section3 .container3 .box i{
+            font-size: 22px;
+        }
+        .section3 .container3 .box p{
+            font-size: 16px;
+        }
+
+
+        
     </style>
 </head>
 <body>
@@ -316,13 +414,45 @@
                 <div class="swiper-button-next"></div>
             </div>
         </section>
-
+        <section class="section3">
+            <div class="container1">
+                <img src="./images/section3.1.webp" alt="">
+                <h1>Conheça nosso Cartão de Crédito</h1>
+                <p>Pode chamar ele de roxinha. Além disso, pode chamar ele de moderno, gratuito e prático também.</p>
+                <div class="button">Saiba mais<i class='bx bx-right-arrow-alt'></i></div>
+            </div>
+            <div class="container2">
+                <img src="./images/section3.2.webp" alt="">
+                <h1>Nubank Ultravioleta</h1>
+                <p>Muito mais que um cartão: uma plataforma exclusiva de benefícios.</p>
+                <div class="button">Saiba mais<i class='bx bx-right-arrow-alt'></i></div>
+            </div>
+            <div class="container3">
+                <h1>Faça mais com seu cartão de crédito</h1>
+                <div class="box">
+                    <i class='bx bx-calendar'></i>
+                    <h1>Pix no crédito</h1>
+                    <p>Faça pagamentos PIX utilizando seu cartão de crédito. Parcele e aproveite essa vantagem.</p>
+                </div>
+                <div class="box">
+                    <i class='bx bx-barcode' ></i>
+                    <h1>Pagamento de Boleto com cartão de crédito</h1>
+                    <p>Pague seus boletos no crédito e parcele em até 12 vezes.</p>
+                </div>
+                <div class="box">
+                    <i class='bx bx-credit-card-front' ></i>
+                    <h1>Parcelamento de Compras</h1>
+                    <p>Comprou e a loja não parcelou? O Nu parcela a compra para você! Simples e prático, direto na sua fatura.</p>
+                </div>
+            </div>
+        </section>
     </main>
     <script>
         var swiper = new Swiper(".mySwiper", {
             loop: true,
             spaceBetween: 10,
             autoplay: true,
+            
             slidesPerView: 2,
             navigation: {
                 nextEl: ".swiper-button-next",
