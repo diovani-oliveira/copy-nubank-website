@@ -1,0 +1,62 @@
+main .section2{
+    width: 724px;
+    position: relative;
+    margin-top: 16px;
+    padding-bottom: 80px;
+}
+main .section2 .swiper-wrapper{
+    min-width: 724px;
+    width: 724px;
+}
+main .section2 .swiper-slide .box{
+    min-width: 330px;
+    height: 300px;
+    border-radius: 12px;
+    position: relative;
+    margin: 32px;
+    padding: 20px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+}
+main .section2 .swiper-slide .box h1{
+    font-size: 19px;
+    font-weight: 500;
+}
+main .section2 .swiper-slide .box p{
+    font-size: 16px;
+    margin-top: 36px;
+}
+main .section2 .swiper-slide .box button{
+    background: #fff;
+    position: absolute;
+    bottom: 24px;
+    color: rgb(130, 10, 209);
+    width: 123px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+main .section2 .swiper-slide .box button i{
+    font-size: 21px;
+}
+main .section2 .box i{
+    font-size: 24px;
+}
+main .section2 .box-arrows{
+    position: absolute;
+    bottom: 70px;
+    width: 106px;
+    left: 50vw;
+    margin-left: -54px;
+}
+:root{
+    --swiper-navigation-size: 20px;
+}
+.swiper-button-next{
+    color: #101010;
+}
+.swiper-button-prev{
+    color: #101010;
+}

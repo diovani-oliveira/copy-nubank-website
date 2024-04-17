@@ -5,3 +5,22 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+body{
+    min-height: 110vh;
+    overflow-x: hidden;
+}
+#button{
+    width: 90%;
+    height: 48px;
+    position: fixed;
+    left: 5%;
+    bottom: 14px;
+    background: rgb(130, 10, 209);
+    color: #fff;
+    text-align: center;
+    line-height: 48px;
+    z-index: 999;
+    border-radius: 1000px;
+    font-size: 15px;
+    font-weight: 500;
+}

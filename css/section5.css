@@ -1,0 +1,84 @@
+.section5 img{
+    width: 100%;
+}
+.section5 .container1 .button{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(130, 10, 209);
+    margin: 8px 0px 24px 0px;
+}
+.section5 .container2 .button{
+    font-size: 16px;
+    font-weight: 600;
+}
+.section5 .container3 .button{
+    font-size: 16px;
+    font-weight: 600;
+}
+.section5 .container4 .button{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: rgb(130, 10, 209);
+}
+.section5 h1{
+    font-size: 28px;
+    font-weight: 600;
+}
+.section5 .container1{
+    padding: 64px 24px;
+    background: rgb(245, 245, 245);
+}
+.section5 .container1 p{
+    font-size: 18px;
+    color: #111111;
+    font-weight: 500;
+    margin: 16px 0px 8px 0px;
+}
+.section5 .container1 h1{
+    color: rgb(130, 10, 209);
+    margin: 14px 0px 0px 0px;
+}
+.section5 .container2{
+    padding: 64px 24px;
+    color: #fff;
+    background: rgb(130, 10, 209);
+}
+.section5 .container2 p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.section5 .container2 h1{
+    color: #fff;
+    margin: 40px 0px 8px 0px;
+}
+.section5 .container3{
+    padding: 64px 24px;
+    background: rgb(47, 5, 73);
+    color: #fff;
+}
+.section5 .container3 p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.section5 .container3 h1{
+    margin: 40px 0px 8px 0px;
+}
+.section5 .container4{
+    padding: 64px 24px;
+    background: rgb(245, 245, 245);
+}
+.section5 .container4 p{
+    font-size: 27px;
+    color: #111111;
+    font-weight: 500;
+    margin: 16px 0px 24px 0px;
+}
+.section5 .container4 h1{
+    color: rgb(130, 10, 209);
+    margin-top: 20px;
+}

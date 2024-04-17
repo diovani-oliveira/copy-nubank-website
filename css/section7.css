@@ -1,0 +1,47 @@
+.section7{
+    color: #fff;
+}
+.section7 h1{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+.section7 h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.section7 .button{
+    font-weight: 500;
+    font-size: 17px;
+}
+.section7 .button i{
+    margin-left: 8px;
+}
+.section7 .container1{
+    padding: 26px 24px;
+    width: 100vw;
+    height: 456px;
+    background: url('https://nubank.com.br/images-cms/1649355432-three-women-walking-xs-3x.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section7 .container2{
+    padding: 26px 24px;
+    width: 100vw;
+    height: 456px;
+    background: url('https://nubank.com.br/images-cms/1649356516-three-young-people-outdoors-leaning-against-the-wall-xs-3x.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section7 .container3{
+    padding: 26px 24px;
+    width: 100vw;
+    height: 456px;
+    background: url('https://nubank.com.br/images-cms/1692067245-blog-section-variant.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

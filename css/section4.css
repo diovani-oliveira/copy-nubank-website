@@ -1,0 +1,57 @@
+.section4 .container::-webkit-scrollbar {
+    height: 0px;
+}
+.section4 .container::-webkit-scrollbar-track {
+    background: #fff;
+}
+.section4 .container::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+.section4{
+    padding: 64px 0px;
+}
+.section4 .title{
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(130, 10, 209);
+    padding-left: 24px;
+    margin-bottom: 22px;
+}
+.section4 .container .box{
+    min-width: 288px;
+    width: 288px;
+    background: rgb(245, 245, 245);
+    margin-right: 16px;
+    border-radius: 30px;
+    position: relative;
+    padding: 24px;
+    padding-top: 276px;
+}
+.section4 .container .box h1{
+    font-size: 19px;
+    font-weight: 600;
+    color: rgb(130, 10, 209);
+    margin-bottom: 16px;
+}
+.section4 .container .box p{
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.section4 .container .box img{
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.section4 .container .box .button{
+    font-size: 17px;
+    color: rgb(130, 10, 209);
+    font-weight: 600;
+}
+.section4 .container{
+    padding-left: 24px;
+    overflow-x: scroll;
+    display: flex;
+}

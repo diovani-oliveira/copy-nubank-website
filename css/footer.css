@@ -1,0 +1,83 @@
+footer{
+    padding: 80px 24px;
+    background: rgb(17, 17, 17);
+    color: #fff;
+}
+footer .title{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+footer p{
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+footer .box{
+    margin-top: 48px;
+}
+footer .box:first-child{
+    margin: unset;
+}
+footer .box i{
+    margin-left: 10px;
+}
+footer .box .container h1{
+    margin-bottom: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+    top: -10px;
+}
+footer .box .container p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+footer .box1 h1{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+footer .box1 h2{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+footer .box1 p{
+    font-size: 15px;
+    font-weight: 500;
+}
+footer .box img{
+    width: 151px;
+    margin-top: 26px;
+}
+footer .box img:last-child{
+    margin-top: 26px;
+}
+footer .box .container{
+    display: flex;
+    flex-direction: column;
+}
+footer .box2{
+    padding-top: 80px;
+}
+footer .box2 img{
+    width: 44px;
+    margin-bottom: 32px;
+}
+footer .box2 p{
+    font-size: 15px;
+    font-weight: 500;
+}
+footer .box2 .medias{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin-top: 36px;
+    position: relative;
+    left: 10%;
+}
+footer .box2 .medias i{
+    font-size: 24px;
+}

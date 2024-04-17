@@ -1,0 +1,27 @@
+header{
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 24px 0px 24px;
+}
+header img{
+    width: 44px;
+}
+header .menu-active{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+    border-radius: 1000px;
+    cursor: pointer;
+}
+header .menu-active i{
+    font-size: 26px;
+}
+header .menu-active:hover{
+    background: rgb(244, 231, 255);
+}
